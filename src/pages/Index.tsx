@@ -46,7 +46,7 @@ export default function Index() {
   const [isLoading, setIsLoading] = useState(false);
   const [categorias, setCategorias] = useState<categoriaApi[]>([]);
 
-  const urlDev = 'http://localhost:54863';
+  const urlDev = 'http://d400scgsso4kcsc0ko0g8408.217.15.170.97.sslip.io';
 
   const BASE_URL = urlDev;
 

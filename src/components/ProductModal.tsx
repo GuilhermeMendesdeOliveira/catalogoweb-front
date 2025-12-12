@@ -42,7 +42,7 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
     onClose();
   };
 
-  const backendUrl = "http://localhost:54863";
+  const backendUrl = "http://d400scgsso4kcsc0ko0g8408.217.15.170.97.sslip.io";
 
   return (
     <div className="modal-overlay" onClick={onClose}>

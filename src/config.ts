@@ -24,7 +24,7 @@ export const LOJA = {
   // Número do WhatsApp para receber pedidos
   // Formato: código do país + DDD + número (sem espaços ou traços)
   // Exemplo: 5511999999999
-  whatsapp: "5541988072763",
+  whatsapp: "5541987855234",
   
   // Texto do rodapé
   rodape: `© ${currentYear} Camafeu Cafeteria - Todos os Direitos Reservados`,
@@ -36,7 +36,7 @@ export const LOJA = {
 
 // Senha para acessar o painel administrativo
 // Mude para uma senha segura!
-export const ADMIN_SENHA = "natal2024";
+export const ADMIN_SENHA = "natal2025";
 
 // ============================================
 // MENSAGEM DO WHATSAPP
