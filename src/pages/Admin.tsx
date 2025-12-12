@@ -497,7 +497,7 @@ export default function Admin() {
       ========================== */}
       {isFormOpen && (
         <div className="fixed inset-0 bg-black/40 flex justify-center items-center p-4 z-50">
-          <div className="bg-card p-6 rounded-2xl w-full max-w-lg shadow-xl relative">
+          <div className="bg-card p-6 rounded-2xl w-full max-w-lg shadow-xl relative h-[95vh] overflow-y-auto">
             <button
               onClick={closeForm}
               className="absolute top-4 right-4 p-2 hover:bg-secondary rounded-xl"
