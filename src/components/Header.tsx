@@ -6,6 +6,7 @@
 import { ShoppingBag, Sparkles, TreePineIcon } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
 import { LOJA } from '@/config';
+import logo from '@/assets/logoCamafeu.jpg'
 
 interface HeaderProps {
   onCartClick: () => void;
@@ -16,17 +17,22 @@ export default function Header({ onCartClick }: HeaderProps) {
 
   return (
     <header className="sticky top-0 z-40 glass-effect border-b border-border/50">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="relative">
-              <div className="w-10 h-10 rounded-2xl christmas-gradient flex items-center justify-center">
+              {/* <div className="w-10 h-10 rounded-2xl christmas-gradient flex items-center justify-center">
                 <TreePineIcon className="w-7 h-7 text-green-300" />
-              </div>
+              </div> */}
+              <img
+                src={logo}
+                alt={LOJA.nome}
+                className="w-12 h-12 rounded-2xl"
+              />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-foreground tracking-widest">
+              <h1 className="text-xl font-extralight text-foreground tracking-widest">
                 {LOJA.nome}
               </h1>
               <p className="text-xs text-muted-foreground -mt-1">
