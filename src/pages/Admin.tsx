@@ -61,7 +61,7 @@ const emptyForm: ProductFormData = {
 };
 
 export default function Admin() {
-  const backendUrl = "http://d400scgsso4kcsc0ko0g8408.217.15.170.97.sslip.io";
+  const backendUrl = "https://d400scgsso4kcsc0ko0g8408.217.15.170.97.sslip.io";
 
   // Auth
   const [isAuthenticated, setIsAuthenticated] = useState(false);

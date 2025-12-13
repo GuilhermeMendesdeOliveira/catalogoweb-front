@@ -29,7 +29,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product, onViewDetails, index }: ProductCardProps) {
-  const backendUrl = "http://d400scgsso4kcsc0ko0g8408.217.15.170.97.sslip.io";
+  const backendUrl = "https://d400scgsso4kcsc0ko0g8408.217.15.170.97.sslip.io";
   return (
     <article
       className="product-card card-hover animate-fade-in"
